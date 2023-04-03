@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  /* font-family: "Noto Nastaliq Urdu", serif; */
+}
+ul li {
+  border: 1px solid #808080;
+  flex-grow: 1;
+  font-weight: 500;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+  transition: 0.25s;
+  text-align: center;
+}
+ul li:hover {
+  background-color: rgb(242, 242, 242);
+}
+ul li:active {
+  background-color: white;
+}
+ul li:active {
+  scale: 1;
+}
+.space {
+  flex-grow: 7;
+}
