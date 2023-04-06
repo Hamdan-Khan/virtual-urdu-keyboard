@@ -527,7 +527,7 @@ function App() {
           &#169;Hamdan-Khan
         </a>
         <a
-          href=""
+          href="https://github.com/Hamdan-Khan/virtual-urdu-keyboard"
           className="mx-1 flex hover:font-medium items-center justify-center duration-300"
         >
           <span class="material-symbols-outlined mb-1">star</span>Star this repo
